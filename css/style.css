@@ -1,0 +1,68 @@
+body {
+  background-color: #FAFAFA;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.main-picture {
+  margin: auto;
+  box-shadow: 1px 4px 4px #333;
+  width: 60%;
+}
+
+.title {
+  color: #212121;
+  font-size: 5vw;
+  margin: 30px 30px 15px 30px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.summary {
+  font-size: 2.1vw;
+  margin-bottom: 30px;
+  font-family: 'Farsan', cursive;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.item {
+  padding: 10px 10px 0px 10px;
+  list-style-position: inside;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  transform: translateX(-1300px);
+}
+.in-view {
+    opacity: 1;
+    transform: translate(0);
+}
+.list {
+  margin-right: 40px;
+  margin-top: 50px;
+
+}
+
+.separator {
+  width: 80%;
+  margin: 15px auto;
+}
+.quotes-container {
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom:20px;
+  overflow:auto;
+}
+.quote {
+  display: none;
+  font-family: 'Farsan', cursive;
+  font-size: 4vw;
+}
+.signature {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 18px;
+}
+
+
